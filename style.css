@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,300;0,400;1,400&family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&family=Roboto+Mono:ital,wght@0,100;0,400;1,100;1,400&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background: white;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-attachment: scroll;
+}
+
+.contact{
+    display:flex;
+    margin:0 2%;
+    list-style:none;
+}
+
+.menu ul{
+    display:flex;
+}
+
+.menu li{
+    margin: 0 10px;
+    list-style:none;
+}
+
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    font-size: 13px;
+}
+
+.xnav{
+    display: flex;
+}
+
+.contact img{
+    width:10%;
+    height:auto;
+
+}
+
+.navbar{
+    padding:10px 0;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-top: 1px solid #000;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.heading{
+    display: flex;
+    height:450px;
+}
+
+.heading img{
+    max-height: 448px;
+    border: 1px solid #000;
+    flex:1;
+    width:auto;
+}
+
+.color-box{
+    background: linear-gradient(rgba(163, 237, 168, 0.4),rgba(213, 206, 206, 0.75));
+    width: 600px;
+    height: auto;
+    flex:1;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.color-box p{
+    font-weight: lighter;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.color-box h2{
+    font-size: 30px;
+    margin:10px 0;
+}
+
+.color-box button{
+    border:1px solid #000;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.content01{
+    height:700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.white-box{
+    flex:1;
+    border-bottom:1px solid #000;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-box p{
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin:10px 0;
+}
+
+.white-box h3{
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom:10px;
+}
+
+.white-box h5{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    padding: 0 20px;
+    width:850px;
+
+}
+
+.white-box button{
+    border-radius: 15px;
+    border:1px solid #000;
+    padding:5px 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    margin:10px 0;
+    font-size: 11px;
+    cursor: pointer;
+}
+.yellow-box{
+    flex:2;
+    border-bottom:1px solid #000;
+    background: linear-gradient(rgba(203, 71, 73, 0.4),rgba(233, 226, 226, 0.75));
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow-box h2{
+    margin:20px 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight:bold;
+}
+
+.yellow-box p{
+    display: flex;
+    flex-direction: column;
+    margin:20px 0;
+}
+.yellow-box .girly{
+    width:700px;
+    height:400px;
+    border: 1px solid #000;
+    /* margin-bottom: 20px 0; */
+}
+
+.img-con{
+    position: relative;
+    margin-bottom: 20px 0;
+}
+
+.over{
+    position: absolute;
+    bottom:0;
+    color:#f1f1f1;
+    width:100%;
+    height:100%;
+    font-size:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 20px;
+}
+
+.yellow-box p{
+    margin:20px 0;
+    font-weight: bold;
+    font:#000;
+}
+.yellow-box a{
+    text-decoration: none;
+    
+}
+.girly img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.shared-box{
+    display: flex;
+}
+
+.shared-box .color-box{
+    background: linear-gradient(rgba(163, 237, 168, 0.4),rgba(213, 206, 206, 0.75));
+    width: 500px;
+    height: 400px;
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.shared-box .other-white{
+    width: auto;
+    height: auto;
+    flex: 1;
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-white p{
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.other-white h2{
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.other-white h3{
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+#tag p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    /* text-transform: lowercase; */
+}
+
+.other-white button{
+    border-radius: 15px;
+    border:1px solid #000;
+    padding:5px 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    margin:10px 0;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.girly01{
+    height: 300px;
+    width: 400px;
+    border:1px solid #000;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.foot-box{
+    display: flex;
+    position: relative;
+    background-attachment:scroll;
+}
+
+.foot-box .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left:25%;
+    margin: 150px 0;
+    text-align: center;
+}
+.foot-box h2{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.foot-box h3{
+    font-weight: lighter;
+    margin:10px 0;
+}
+
+.foot-box button{
+    border:1px solid #000;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    width:100px;
+}
+
+.makeup{
+    height: 300px;
+    width: 450px;
+    border:1px solid #000;
+    margin-bottom: 0 20px;
+}
+
+.makeup img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.foot-box .boxy{
+    position: absolute;
+    left:50%;
+    margin: 55px 0;
+}
+
+.foot-box .blackb{
+    width:auto;
+    background: #000;
+    height:10px;
+    color:#f1f1f1;
+}
